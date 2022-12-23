@@ -1,3 +1,63 @@
 body {
 	font-family: sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	margin-top: 12px;
+	padding: 0;
+}
+
+div {
+	margin: 0;
+	padding: 0;
+}
+
+div.calculator {
+	display: flex;
+	flex-direction: column;
+	margin-top: 24px;
+	align-items: stretch;
+}
+
+div.calculator-display {
+	display: flex;
+	flex: 1;
+}
+
+div.calculator-display input {
+	height: 25px;
+	flex: 1;
+}
+
+div.buttons {
+	display: flex;
+	flex: 1;
+}
+
+div.numbers-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	align-items: stretch;
+}
+
+div.operations {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch;
+	flex: 1;
+}
+
+div.numbers {
+	display: flex;
+	flex: 1;
+}
+
+div button {
+	font-size: 24px;
+	width: 50px;
+	flex: 1;
 }
