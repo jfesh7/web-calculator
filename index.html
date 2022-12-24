@@ -11,34 +11,36 @@
 	<h1>Calculator</h1>
 	<div class="calculator">
 		<div class="calculator-display">
-			<input type="text">
+			<input id="display" type="text">
 		</div>
 		<div class="buttons">
 			<div class="numbers-container">
 			<div class="numbers row1">
-				<button>9</button>
-				<button>8</button>
-				<button>7</button>
+				<button class="number" value="9">9</button>
+				<button class="number" value="8">8</button>
+				<button class="number" value="7">7</button>
 			</div>
 			<div class="numbers row2">
-				<button>6</button>
-				<button>5</button>
-				<button>4</button>
+				<button class="number" value="6">6</button>
+				<button class="number" value="5">5</button>
+				<button class="number" value="4">4</button>
 			</div>
 			<div class="numbers row3">
-				<button>3</button>
-				<button>2</button>
-				<button>1</button>
+				<button class="number" value="3">3</button>
+				<button class="number" value="2">2</button>
+				<button class="number" value="1">1</button>
 			</div>
 			<div class="numbers row4">
-				<button>0</button>
+				<button id="decimal" value=".">.</button>
+				<button class="number" value="0">0</button>
+				<button id="evaluate" value="=">=</button>
 			</div>
 			</div>
 			<div class="operations">
-				<button>+</button>
-				<button>-</button>
-				<button>*</button>
-				<button>/</button>
+				<button class="operator" value="+">+</button>
+				<button class="operator" value="-">-</button>
+				<button class="operator" value="*">*</button>
+				<button class="operator" value="/">/</button>
 			</div>
 		</div>
 	</div>
